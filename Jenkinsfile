@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'sudo docker build -t aniketbhagat1997/apache2_img:3.3 .'
+        sh 'docker build -t aniketbhagat1997/apache2_img:3.3 .'
       }
     }
 
